@@ -1,0 +1,50 @@
+h2 {
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  color: #3a9efb;
+}
+
+.linkContainer {
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 7px 6px 8px 6px rgba(2, 2, 2, 0.4);
+}
+
+.linkContainer h3 {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.linkContainer i {
+  cursor: pointer;
+  font-size: 25px;
+  padding-left: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkContainer i:hover {
+  font-size: 23px;
+  opacity: 0.5;
+}
+
+.linkContainer h4 {
+  font-weight: 400;
+  color: #999;
+}
+
+.linkContainer a {
+  font-size: 25px;
+  font-weight: 500;
+  color: #3a9efb;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkContainer a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}

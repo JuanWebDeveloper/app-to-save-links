@@ -1,0 +1,54 @@
+.form {
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 7px 6px 8px 6px rgba(2, 2, 2, 0.4);
+}
+
+.form h2 {
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  color: #3a9efb;
+}
+
+.form .icon {
+  margin-right: 10px;
+  border-radius: 5px !important;
+  border: none !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.form .icon i {
+  color: #fff;
+}
+
+.form .icon:hover {
+  opacity: 0.8;
+}
+
+.form input,
+.form textarea {
+  border-radius: 5px !important;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.form textarea {
+  min-height: 120px;
+  max-height: 150px;
+}
+
+.form button {
+  border-radius: 5px;
+  color: #fff;
+  background: #3a9efb;
+  transition: all 0.5s ease-in-out;
+}
+
+.form button:hover {
+  opacity: 0.5;
+  color: #fff;
+}
